@@ -55,7 +55,7 @@ const f = obj.print;
 f(); // undefined (또는 window.x)
 ```
 
-- print가 원래 obj에 있었던 건 무시됨, debounce가 "분리"ㅋ
+- print가 원래 obj에 있었던 건 무시됨, debounce가 "분리"
 
 ```js
 obj.method = debounce(obj.method, 100);
